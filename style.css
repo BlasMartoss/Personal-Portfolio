@@ -61,7 +61,7 @@ margin-left: 2%;
 #home_container{
     display: flex;
     justify-content: center;
-    background-image: url('images/ad.png');
+    background-image: url('images/background.png');
     background-size: cover; 
     background-repeat: no-repeat; 
     height: 100%;
@@ -360,7 +360,7 @@ padding: 1%;
     margin-top: 5%;
 }
 
-#burger{
+#burguer{
     display: none;
 }
 
@@ -374,6 +374,9 @@ padding: 1%;
     width: 100%;
     display: flex;
     justify-content: center;
+}
+#icons_container1 img:hover{
+    transform: scale(1.1);
 }
 
 #icons_container1 a{
@@ -436,7 +439,7 @@ margin-left: 5%;
         width: 40px;
         cursor: pointer;
     }
-    #burger{
+    #burguer{
         margin-left: 5px;
         display: block;
         display: flex;
