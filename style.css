@@ -360,7 +360,7 @@ padding: 1%;
     margin-top: 5%;
 }
 
-#burguer{
+#burger{
     display: none;
 }
 
@@ -439,7 +439,7 @@ margin-left: 5%;
         width: 40px;
         cursor: pointer;
     }
-    #burguer{
+    #burger{
         margin-left: 5px;
         display: block;
         display: flex;
