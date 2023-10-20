@@ -18,6 +18,8 @@ function showMenu(){
 
 // Función para validar los campos del formulario
 function validateForm() {
+  alert("No disponible por el momento")
+  return;
   // Obtiene los valores de los campos del formulario
   const nameField = document.getElementById('name');
   const emailField = document.getElementById('email');
