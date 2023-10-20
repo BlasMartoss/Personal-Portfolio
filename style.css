@@ -44,7 +44,7 @@ margin-left: 2%;
     margin-right: 50px; 
     text-decoration: none; 
     font-size: 20px;
-    font-family: Ink Free;
+    font-family: fantasy;
     padding: 1%;
     border-radius:10px; 
     transition: background-color 0.3s ease; 
@@ -92,6 +92,7 @@ margin-left: 2%;
     margin-top: 0;
     width: 60%;
     margin-bottom: 11%;
+    font-family: cursive;
 }
 .buttons{
     background-color: #0D68EC;
@@ -165,6 +166,11 @@ margin-right: 12%;
 #children_about2 h3{
 color: #0D68EC;
 }
+
+
+
+
+
 #contactme{
     display: flex;
     justify-content: center;
@@ -252,9 +258,11 @@ border-radius: 10px;
 text-align: center;
 }
 
+/*Proyectos*/
+
 
 #projects{
-    height: 100%;
+
 }
 #projects h1{
 margin-top: 5%;
@@ -262,10 +270,80 @@ margin-bottom: 0;
 border-bottom: 2px solid #0D68EC;
 padding: 1%;
 }
+#title_text_container{
+    display: flex;
+    flex-direction: column;
+  
+}
 #project_title{
     display: flex;
     justify-content: center;
 }
+#container_p{
+    font-size: 17px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    font-family: cursive;
+    
+}
+.projects{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+    
+}
+.project{
+display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 2%;
+background-color: rgba(230, 214, 214, 0.226);
+border-radius: 10px;
+width: 90%;
+}
+.project h2{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+    color: #0D68EC;
+}
+.project_img{
+
+}
+
+
+.title_project{
+    margin-left: 5%;
+    align-items: center;
+    justify-content: center;
+
+    width: 30%;
+}
+@media (min-width: 1000px) {
+    .project{
+        width: 52%;
+    }
+}
+@media (max-width: 618px) {
+    .project{
+        display: flex;
+        width: 80%;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+.title_project{
+
+    width: 60%;
+}
+}
+
+
+
+
+
 
 
 #contacto{
@@ -384,7 +462,13 @@ margin-right: 5%;
 margin-left: 5%;
 }
 
-
+/*Footer*/
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
 
 @media screen and (max-width: 1141px) {
     #children_about1 {
