@@ -274,6 +274,7 @@ padding: 1%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 70px;
 }
 #project_title{
     display: flex;
